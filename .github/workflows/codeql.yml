@@ -22,8 +22,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - language: 'javascript' # Replace with the actual languages you want to analyze
-            build-mode: 'default' 
+          - language: 'javascript' 
+            build-mode: 'autobuild' 
 
     steps:
     - name: Checkout repository
